@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en" class="admin-html">
+	<head>
+
+		<!-- site meta -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="title" content="p1-UkipaHtml">
+        <meta name="description" content="p1-UkipaHtml">
+        <meta name="keywords" content="p1-UkipaHtml">
+        <meta name="author" content="p1-UkipaHtml">
+
+        <!-- site favicon -->
+        <link rel="icon" href="favicon.png" type="image/svg">
+
+		<!-- site title -->
+		<title>p1-UkipaHtml</title>
+
+		<!-- bootstrap css -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+		<!-- magnific css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+		<!-- slicknav css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+
+		<!-- Scrollbar css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+		<!-- main stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+		<!-- responsive stylesheet -->
+        <link rel="stylesheet" href="css/responsive.css">
+
+		<!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body class="admin-body bg-light scrollbar-inner">
+
+		<!-- admin-section -->
+		<section class="admin-section common-details h-100">
+
+			<!-- admin-leftSide -->
+			<div class="admin-leftSide bg-white h-100">
+				<div class="d-flex flex-column h-100">
+					<div class="site-logo py-5 d-flex align-items-center justify-content-xl-center">
+						<img src="img/logo.png" alt="img" class="mw-100">
+					</div>
+					<nav class="site-nav" id="nav-menu">
+						<ul id="phn-menu">
+							<li>
+								<a href="#">
+									<img src="img/dashboard.svg" alt="img" class="menu-icon mr-3">
+									<img src="img/dashboard-white.svg" alt="img" class="menu-icon d-none mr-3">
+									Dashboard
+								</a>
+							</li>
+							<li class="active">
+								<a href="#">
+									<img src="img/resources.svg" alt="img" class="menu-icon mr-3">
+									<img src="img/resources-white.svg" alt="img" class="menu-icon d-none mr-3">
+									H-Resources
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/moderation.svg" alt="img" class="menu-icon mr-3">
+									<img src="img/moderation-white.svg" alt="img" class="menu-icon d-none mr-3">
+									Moderation
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="mt-auto mb-4">
+						<div class="user-logs">
+							<div class="btn btn-light btn-lg w-100 mb-xl-4 mr-4 mr-xl-0 pl-2">
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="d-flex align-items-center">
+										<img src="img/avatar1.png" alt="img" class="mr-sm-4">
+										<h6 class="text-dark d-none d-xl-block">Zac1kio</h6>
+									</div>
+									<img src="img/arrow_right_success.svg" alt="img" class="ml-2">
+								</div>
+							</div>
+							<button class="btn btn-light btn-lg w-100"><h4>Sign Out</h4></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End admin-leftSide -->
+
+			<!-- admin-rightSide -->
+			<div class="admin-rightSide py-4">
+				<div class="row my-2">
+					<div class="col-sm-6 pr-sm-0 pb-4 pb-sm-0">
+
+						<!-- staff-box -->
+						<div class="staff-box overflow-hidden">
+							<h2 class="mb-2 text-500">Staff Members</h2>
+							<h3 class="text-muted">0 Staff Total</h3>
+							<div class="player-search border-radius-12 bg-white mt-4">
+								<div class="p-3">
+									<div class="row">
+										<div class="col-xl-4">
+											<form action="#" class="search-form position-relative my-sm-0 my-2">
+												<input type="text" placeholder="Search" class="form-control bg-success text-white text-center w-100">
+												<button class="position-absolute border-0 bg-transparent"><img src="img/search.svg" alt="img"></button>
+											</form>
+										</div>
+										<div class="col-xl-7 offset-xl-1 pl-xl-0">
+											<div class="row mx-xl-0">
+												<div class="col-xl-4 px-xl-1">
+													<a href="#" class="btn btn-warning btn-sm my-xl-0 my-2 w-100">
+														<h5 class="Inter text-white">
+															Reset Activity
+														</h5>
+													</a>
+												</div>
+												<div class="col-xl-4 px-xl-1">
+													<a href="#" class="btn btn-info btn-sm my-xl-0 my-2 w-100">
+														<h5 class="Inter text-white">
+															Reset Warnings
+														</h5>
+													</a>
+												</div>
+												<div class="col-xl-4 px-xl-1">
+													<a href="#" class="btn btn-danger btn-sm my-xl-0 my-2 w-100">
+														<h5 class="Inter text-white">
+															Submit Evals
+														</h5>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- scrollbar -->
+								<div class="scrollbar p-3" style="height: 172px;">
+									<div class="row pb-3">
+										<!-- profile-actions -->
+										<ul class="col-xl-9 profile-actions">
+											<li class="d-flex align-items-center bg-white text-center p-3">
+												<div class="mr-3">
+													<img src="img/avatar-round.png" alt="img" class="mb-2">
+													<p class="text-dark text-700">
+														Zac1kio
+													</p>
+													<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>View</small></a>
+												</div>
+												<div class="row player-profile-action">
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+																Rank
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Evaluate
+															</p>
+														</a>
+													</div>
+													<div class="col-12 col-xl-6 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Reset Data
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Warn
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Suspend
+															</p>
+														</a>
+													</div>
+													<div class="col-12 col-xl-6 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Update Minutes
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Demote
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Terminate
+															</p>
+														</a>
+													</div>
+													<div class="col-12 col-xl-6 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Update Sessions
+															</p>
+														</a>
+													</div>
+												</div>
+											</li>
+											<li class="d-flex align-items-center bg-white text-center p-3">
+												<div class="mr-3">
+													<img src="img/avatar-round.png" alt="img" class="mb-2">
+													<p class="text-dark text-700">
+														Zac1kio
+													</p>
+													<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>View</small></a>
+												</div>
+												<div class="row player-profile-action">
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+																Rank
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Evaluate
+															</p>
+														</a>
+													</div>
+													<div class="col-12 col-xl-6 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Reset Data
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Warn
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Suspend
+															</p>
+														</a>
+													</div>
+													<div class="col-12 col-xl-6 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Update Minutes
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Demote
+															</p>
+														</a>
+													</div>
+													<div class="col-6 col-xl-3 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Terminate
+															</p>
+														</a>
+													</div>
+													<div class="col-12 col-xl-6 px-1 py-1">
+														<a href="#" class="btn btn-success w-100">
+															<p class="Inter">
+
+																Update Sessions
+															</p>
+														</a>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<!-- profile-actions -->
+									</div>
+								</div>
+								<!-- scrollbar -->
+							</div>
+						</div>
+						<!-- End staff-box -->
+
+						<!-- staff-box -->
+						<div class="staff-box overflow-hidden">
+							<div class="announcement-title bg-light d-flex align-items-center justify-content-between py-2 mt-3">
+								<h3 class="text-muted"><img src="img/clock.svg" alt="img" class="mr-sm-4 mr-2">Inactivity Notices</h3>
+								<div class="bg-success border-radius-6">
+									<h3 class="px-3 py-1 text-white text-700">3</h3>
+								</div>
+							</div>
+							<div class="player-search border-radius-12 bg-white mt-3">
+								<!-- scrollbar -->
+								<div class="scrollbar p-3" style="height: 122px;">
+									<div class="row pb-3">
+										<!-- profile-actions -->
+										<ul class="col-xl-8 profile-actions">
+											<li class="d-flex align-items-center justify-content-between bg-white text-center p-xl-3 p-2 mr-xl-4">
+												<img src="img/avatar-round.png" alt="img" class="mr-sl-2 mr-1">
+												<div>
+													<p class="text-dark text-700">
+														Zac1kio
+													</p>
+													<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>Trainee</small></a>
+												</div>
+												<div class="text-left px-xl-3 px-sm-2 px-1">
+													<p>
+														Date Submitted :
+													</p>
+													<p class="text-primary">
+														11/05/2021 - 2:00 PM
+													</p>
+												</div>
+												<div class="ml-auto">
+													<button class="btn btn-info btn-sm px-xl-4 px-1 border-radius-4">
+														<p>View Request</p>
+													</button>
+												</div>
+											</li>
+											<li class="d-flex align-items-center justify-content-between bg-white text-center p-xl-3 p-2 mr-xl-4">
+												<img src="img/avatar-round.png" alt="img" class="mr-sl-2 mr-1">
+												<div>
+													<p class="text-dark text-700">
+														Zac1kio
+													</p>
+													<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>Trainee</small></a>
+												</div>
+												<div class="text-left px-xl-3 px-sm-2 px-1">
+													<p>
+														Date Submitted :
+													</p>
+													<p class="text-primary">
+														11/05/2021 - 2:00 PM
+													</p>
+												</div>
+												<div class="ml-auto">
+													<button class="btn btn-info btn-sm px-xl-4 px-1 border-radius-4">
+														<p>View Request</p>
+													</button>
+												</div>
+											</li>
+										</ul>
+										<!-- profile-actions -->
+									</div>
+								</div>
+								<!-- scrollbar -->
+							</div>
+						</div>
+						<!-- End staff-box -->
+
+						<!-- player-search -->
+						<div class="announcement-title bg-light d-flex align-items-center pt-2 my-3">
+							<h3 class="text-muted"><img src="img/blocklist.svg" alt="img" class="mr-sm-4 mr-2">Staff Blacklists</h3>
+						</div>
+						<div class="row Blacklists pb-3 pb-xl-0">
+							<div class="col-xl-6">
+								<div class="player-search border-radius-12 bg-white p-3">
+									<form action="#" class="search-form position-relative mb-3">
+										<input type="text" placeholder="Search" class="form-control bg-success text-white text-center w-100">
+										<button class="position-absolute border-0 bg-transparent"><img src="img/search.svg" alt="img"></button>
+									</form>
+									<ul class="profile-actions d-xl-flex">
+										<li class="player-profile list-inline-item bg-white text-center p-3 w-xl-100">
+											<img src="img/avatar-round.png" alt="img" class="mb-2">
+											<p class="text-dark text-700">
+												Zac1kio
+											</p>
+											<a href="#" class="btn btn-danger btn-xs w-100 py-0 mt-1"><small>Blacklist</small></a>
+											<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Unblacklist</small></a>
+										</li>
+										<li class="player-profile list-inline-item bg-white text-center p-3 w-xl-100">
+											<img src="img/avatar-round.png" alt="img" class="mb-2">
+											<p class="text-dark text-700">
+												Zac1kio
+											</p>
+											<a href="#" class="btn btn-danger btn-xs w-100 py-0 mt-1"><small>Blacklist</small></a>
+											<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Unblacklist</small></a>
+										</li>
+										<li class="player-profile list-inline-item bg-white text-center p-3 w-xl-100">
+											<img src="img/avatar-round.png" alt="img" class="mb-2">
+											<p class="text-dark text-700">
+												Zac1kio
+											</p>
+											<a href="#" class="btn btn-danger btn-xs w-100 py-0 mt-1"><small>Blacklist</small></a>
+											<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Unblacklist</small></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xl-6 pl-xl-0 mt-3 mt-xl-0">
+								<div class="player-search border-radius-12 bg-white p-3 h-100">
+									<h5 class="btn btn-success text-white px-sm-4 mb-4 Inter">Blacklist History</h5>
+									<ul class="profile-actions">
+										<li class="d-inline-flex align-items-center bg-white p-xl-3 pr-xl-4 p-2 mr-xl-4">
+											<img src="img/avatar-round.png" alt="img" class="mr-2 mCS_img_loaded">
+											<div>
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>Trainee</small></a>
+												<p class="text-700 my-1">
+													Blacklisted By:
+												</p>
+												<small class="text-muted">
+													<img src="img/blacklist_by.png" alt="img" class="mr-1">
+													Zac1kio
+												</small>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- player-search -->
+
+					</div>
+					<div class="col-sm-6 pb-4 pb-sm-0">
+						
+						<!-- Announcements -->
+						<div class="announcements position-relative">
+							
+							<div class="announcement-title bg-light d-flex align-items-center justify-content-between pb-2">
+								<h3 class="text-muted"><img src="img/announcemets.svg" alt="img" class="mr-sm-4 mr-2">Current Notices</h3>
+								<div class="bg-success border-radius-6">
+									<h3 class="px-3 py-1 text-white text-700">1</h3>
+								</div>
+							</div>
+							<div class="player-search border-radius-12 bg-white mt-4 overflow-hidden">
+								<div class="px-3 pt-3 pb-2">
+									<h5 class="btn btn-success text-white px-sm-4 Inter">Time off Requests</h5>
+								</div>
+								<!-- scrollbar -->
+								<div class="scrollbar p-3 overflow-hidden" style="height: 182px;">
+									<div class="row pb-3">
+										<!-- profile-actions -->
+										<ul class="col-xl-9 profile-actions">
+											<li class="d-flex align-items-center bg-white p-3 mb-5">
+												<div class="mr-3 text-center">
+													<img src="img/avatar-round.png" alt="img" class="mb-2">
+													<p class="text-dark text-700">
+														Zac1kio
+													</p>
+													<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>View</small></a>
+												</div>
+												<div class="row player-profile-action">
+													<div class="col-12 col-xl-9 px-1 py-1">
+														<h6>
+															Reason :
+														</h6>
+														<p class="text-muted font-11 mt-1">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+														</p>
+													</div>
+													<div class="col-6 col-xl-3 pl-xl-3 px-1 d-flex align-items-xl-end">
+														<a href="#" class="btn btn-info w-100">
+															<p class="Inter">
+																Approve
+															</p>
+														</a>
+													</div>
+												</div>
+											</li>
+											<li class="d-flex align-items-center bg-white p-3 mb-5">
+												<div class="mr-3 text-center">
+													<img src="img/avatar-round.png" alt="img" class="mb-2">
+													<p class="text-dark text-700">
+														Zac1kio
+													</p>
+													<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>View</small></a>
+												</div>
+												<div class="row player-profile-action">
+													<div class="col-12 col-xl-9 px-1 py-1">
+														<h6>
+															Reason :
+														</h6>
+														<p class="text-muted font-11 mt-1">
+															Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+														</p>
+													</div>
+													<div class="col-6 col-xl-3 pl-xl-3 px-1 d-flex align-items-xl-end">
+														<a href="#" class="btn btn-info w-100">
+															<p class="Inter">
+																Approve
+															</p>
+														</a>
+													</div>
+												</div>
+											</li>
+										</ul>
+										<!-- profile-actions -->
+									</div>
+								</div>
+								<!-- scrollbar -->
+								<div class="px-3">
+									<h5 class="btn btn-success text-white px-sm-4 Inter">Approved Requests</h5>
+								</div>
+								<!-- scrollbar -->
+								<div class="scrollbar p-3 overflow-hidden" style="height: 188px;">
+									<div class="Blacklists player-search border-radius-12 bg-white mb-5">
+										<ul class="profile-actions d-xl-flex">
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+										</ul>
+									</div>
+									<div class="Blacklists player-search border-radius-12 bg-white mb-5">
+										<ul class="profile-actions d-xl-flex">
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+										</ul>
+									</div>
+									<div class="Blacklists player-search border-radius-12 bg-white mb-5">
+										<ul class="profile-actions d-xl-flex">
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+											<li class="player-profile list-inline-item bg-white text-center p-3">
+												<img src="img/avatar-round.png" alt="img" class="mb-2">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-info btn-xs w-100 py-0 mt-1"><small>Approved</small></a>
+												<a href="#" class="btn btn-white btn-xs w-100 py-0 mt-1"><small>By You</small></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<!-- scrollbar -->
+							</div>
+						</div>
+						<!-- Announcements -->
+						<!-- Blacklists -->
+						<div class="row Blacklists pb-3 pb-xl-0 mt-3">
+							<div class="col-xl-6 pr-xl-0">
+								<div class="player-search  border-radius-12 bg-white p-3">
+									<h5 class="btn btn-success text-white px-sm-4 mb-3 Inter">Top Performing Staff Members</h5>
+									<ul class="profile-actions d-xl-flex">
+										<li class="player-profile position-relative list-inline-item bg-white text-center p-3">
+											<p class="position-absolute counter bg-warning text-white">#1</p>
+											<img src="img/avatar-round.png" alt="img" class="mb-2">
+											<p class="text-dark text-700">
+												Zac1kio
+											</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-xl-6 mt-3 mt-xl-0">
+								<div class="player-search border-radius-12 bg-white p-3 h-100">
+									<h5 class="btn btn-success text-white px-sm-4 mb-3 Inter">Staff In-Game</h5>
+									<ul>
+										<li class="d-inline-flex align-items-center mr-xl-3 mr-2">
+											<img src="img/staff-ingame.png" alt="img">
+										</li>
+										<li class="d-inline-flex align-items-center mr-xl-3 mr-2">
+											<img src="img/staff-ingame.png" alt="img">
+										</li>
+										<li class="d-inline-flex align-items-center mr-xl-3 mr-2">
+											<img src="img/staff-ingame.png" alt="img">
+										</li>
+										<li class="d-inline-flex align-items-center mr-xl-3 mr-2">
+											<img src="img/staff-ingame.png" alt="img">
+										</li>
+										<li class="d-inline-flex align-items-center mr-xl-3 mr-2">
+											<img src="img/staff-ingame.png" alt="img">
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- Blacklists -->
+						<div class="announcement-title bg-light d-flex align-items-center my-3">
+							<h3 class="text-muted"><img src="img/clock.svg" alt="img" class="mr-sm-4 mr-2">
+								Worker Points
+							</h3>
+						</div>
+						<div class="player-search border-radius-12 bg-white p-3">
+							<div class="row">
+								<div class="col-xl-8 mb-2">
+									<div class="btn btn-success px-sm-4 d-flex align-items-center justify-content-between">
+										<h5 class="text-white Inter">Staff Members</h5>
+										<h5 class="text-success-light Inter">0 Staff Total</h5>
+									</div>
+								</div>
+								<div class="col-xl-4 pl-xl-0 mb-2">
+									<form action="#" class="search-form position-relative mb-3">
+										<input type="text" placeholder="Search" class="form-control form-control-sm bg-success text-white text-center w-100">
+										<button class="position-absolute border-0 bg-transparent"><img src="img/search.svg" alt="img"></button>
+									</form>
+								</div>
+								<div class="col-xl-5">
+									<ul class="profile-actions">
+										<li class="d-xl-inline-flex align-items-center text-center text-xl-left bg-white p-xl-3 p-2 mr-xl-4">
+											<img src="img/avatar-round.png" alt="img" class="mr-2 mCS_img_loaded">
+											<div class="text-nowrap">
+												<p class="text-dark text-700">
+													Zac1kio
+												</p>
+												<a href="#" class="btn btn-success btn-xs w-100 py-0 mt-1"><small>Trainee</small></a>
+												<p class="text-700 my-1">
+													Blacklisted By:
+												</p>
+												<small class="text-muted">
+													<img src="img/blacklist_by.png" alt="img" class="mr-1">
+													Zac1kio
+												</small>
+											</div>
+											<div class="pl-xl-2">
+												<a href="#" class="btn btn-info my-1 w-100 px-1">
+													<small class="Inter">
+														Add Points
+													</small>
+												</a>
+												<a href="#" class="btn btn-info my-1 w-100 px-1">
+													<small class="Inter">
+														Remove Points
+													</small>
+												</a>
+												<a href="#" class="btn btn-info my-1 w-100 px-1">
+													<small class="Inter">
+														Wipe Points
+													</small>
+												</a>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End admin-rightSide -->
+
+		</section>
+		<!-- End admin-section -->
+		
+		<!-- jquery script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- bootstrap script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+        <!-- magnific Script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+        <!-- slicknav Script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+		
+        <!-- Scrollbar script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+
+        <!-- main script -->
+        <script src="js/main.js"></script>
+		
+	
+</body>
+</html>

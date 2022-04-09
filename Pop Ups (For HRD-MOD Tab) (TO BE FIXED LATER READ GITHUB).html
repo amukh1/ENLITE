@@ -1,0 +1,852 @@
+
+!DOCTYPE html>
+<html lang="en" class="admin-html">
+	<head>
+
+		<!-- site meta -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="title" content="p1-UkipaHtml">
+        <meta name="description" content="p1-UkipaHtml">
+        <meta name="keywords" content="p1-UkipaHtml">
+        <meta name="author" content="p1-UkipaHtml">
+
+        <!-- site favicon -->
+        <link rel="icon" href="favicon.png" type="image/svg">
+
+		<!-- site title -->
+		<title>p1-UkipaHtml</title>
+
+		<!-- bootstrap css -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!-- bootstrap script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+		<!-- magnific css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+
+		<!-- slicknav css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/slicknav.min.css">
+
+		<!-- Scrollbar css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+
+		<!-- main stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+		<!-- responsive stylesheet -->
+        <link rel="stylesheet" href="css/responsive.css">
+
+		<!-- ==== HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries ==== -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+	</head>
+	<body class="admin-body bg-light">
+
+		<!-- admin-section -->
+		<section class="admin-section common-details h-100">
+
+			<!-- admin-leftSide -->
+			<div class="admin-leftSide bg-white h-100">
+				<div class="d-flex flex-column h-100">
+					<div class="site-logo py-5 d-flex align-items-center justify-content-xl-center">
+						<img src="img/logo.png" alt="img" class="mw-100">
+					</div>
+					<nav class="site-nav" id="nav-menu">
+						<ul id="phn-menu">
+							<li class="active">
+								<a href="#">
+									<img src="img/dashboard.svg" alt="img" class="menu-icon mr-3">
+									<img src="img/dashboard-white.svg" alt="img" class="menu-icon d-none mr-3">
+									Dashboard
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/resources.svg" alt="img" class="menu-icon mr-3">
+									<img src="img/resources-white.svg" alt="img" class="menu-icon d-none mr-3">
+									H-Resources
+								</a>
+							</li>
+							<li>
+								<a href="#">
+									<img src="img/moderation.svg" alt="img" class="menu-icon mr-3">
+									<img src="img/moderation-white.svg" alt="img" class="menu-icon d-none mr-3">
+									Moderation
+								</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="mt-auto mb-4">
+						<div class="user-logs">
+							<div class="btn btn-light btn-lg w-100 mb-xl-4 mr-4 mr-xl-0 pl-2">
+								<div class="d-flex align-items-center justify-content-between">
+									<div class="d-flex align-items-center">
+										<img src="img/avatar1.png" alt="img" class="mr-sm-4">
+										<h6 class="text-dark d-none d-xl-block">Zac1kio</h6>
+									</div>
+									<img src="img/arrow_right_success.svg" alt="img" class="ml-2">
+								</div>
+							</div>
+							<button class="btn btn-light btn-lg w-100"><h4>Sign Out</h4></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- End admin-leftSide -->
+
+			<!-- admin-rightSide -->
+			<div class="admin-rightSide py-4">
+				<div class="row my-2">
+					<div class="col-sm-6 pr-sm-0 pb-4 pb-sm-0">
+
+						<!-- user-welcome -->
+						<div class="user-welcome d-flex align-items-center justify-content-between mb-sm-5 mb-3">
+							<div>
+								<h3 class="mb-2">
+									Good Morning,
+								</h3>
+								<h1>
+									Zac1kio
+								</h1>
+							</div>
+							<div class="border-radius-15 bg-white d-none d-sm-block">
+								<img src="img/avatar-lg.png" alt="img">
+							</div>
+						</div>
+						<!-- user-welcome -->
+
+						<!-- activites -->
+						<div class="row activites">
+							<div class="col-xl-3 col-6 my-2">
+								<div class="activity-item bg-white p-3">
+									<h5>Last Seen</h5>
+									<h5 class="text-success py-1">5 Minutes Ago</h5>
+								</div>
+							</div>
+							<div class="col-xl-3 col-6 my-2">
+								<div class="activity-item bg-white p-3">
+									<h5>Discord ID</h5>
+									<h5 class="text-success py-1">00000000001</h5>
+								</div>
+							</div>
+							<div class="col-xl-3 col-6 my-2">
+								<div class="activity-item bg-white p-3">
+									<h5>Play Time</h5>
+									<h5 class="text-success py-1">2 Hours</h5>
+								</div>
+							</div>
+							<div class="col-xl-3 col-6 my-2">
+								<div class="activity-item bg-white p-3">
+									<h5>Reports</h5>
+									<h5 class="text-success py-1">1</h5>
+								</div>
+							</div>
+							<div class="col-xl-6 my-2">
+								<div class="activity-item bg-white p-3">
+									<h5 class="mb-3">History</h5>
+									<div class="d-xl-flex align-items-center">
+										<img src="img/history_avatar.png" alt="img" class="mr-xl-2">
+										<div class="mt-xl-0 mt-3">
+											<h5>Reason : Cheating</h5>
+											<h5 class="text-success py-1">Updated Points to 0 from 152</h5>
+										</div>
+									</div>
+									<a href="#" class="btn btn-danger mt-3 w-100 border-radius-6">
+										<p class="Inter">
+											Cheating
+										</p>
+									</a>
+								</div>
+							</div>
+						</div>
+						<!-- End activites -->
+
+						<div class="recent-activity-box bg-white mt-3 p-sm-4 p-3 border-radius-12">
+							<h5 class="mb-3">Logs</h5>
+							<div class="bg-info p-sm-4 p-3 border-radius-6 mb-5">
+								<h3 class="text-info">
+									Ranked this user to Receptionist.
+								</h3>
+								<div class="d-xl-flex align-items-end justify-content-between mt-2 pt-1">
+									<h3 class="text-white">
+										<img src="img/announ_avatar.png" alt="img" class="mr-sm-3 mr-2"> Zack  [President]
+									</h3>
+									<h4 class="text-info-light text-right">
+										1 hour ago
+									</h4>
+								</div>
+							</div>
+						</div>
+
+						<div class="recent-activity-box bg-white mt-4 p-sm-4 p-3 border-radius-12">
+							<h5 class="mb-3">Admin Logs</h5>
+							<div class="bg-info p-sm-4 p-3 border-radius-6 mb-5">
+								<h3 class="text-info">
+									Kicked this user with reason: Trolling.
+								</h3>
+								<div class="d-xl-flex align-items-end justify-content-between mt-2 pt-1">
+									<h3 class="text-white">
+										<img src="img/announ_avatar.png" alt="img" class="mr-sm-3 mr-2"> Zack  [President]
+									</h3>
+									<h4 class="text-info-light text-right">
+										1 hour ago
+									</h4>
+								</div>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-sm-6 pr-sm-0 pb-4 pb-sm-0">
+
+						<div class="player-search border-radius-12 bg-white p-3 h-100">
+							<button type="button" class="btn btn-success btn-lg w-100" data-toggle="modal" data-target=".bd-example-modal-lg">Show Pop Up's</button>
+
+							<!-- popup modal -->
+							<form class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+								<div class="modal-dialog modal-lg border-radius-0">
+									<div class="modal-content popup-content bg-light p-3">
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div class="d-flex align-items-center justify-content-between">
+															<div>
+																<small class="d-block w-100">
+																	Current Warnings :
+																</small>
+																<small class="text-success">
+																	01
+																</small>
+															</div>
+															<span class="close" data-dismiss="modal" aria-label="Close">
+																<img src="img/popup_close.png" alt="img" aria-hidden="true">
+															</span>
+														</div>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-info btn-sm my-xl-0 my-2 w-100">
+																<h5 class="Inter text-white">
+																	Submit
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div>
+															<div class="d-flex align-items-center justify-content-between">
+																<div>
+																	<small class="d-block w-100">
+																		Current Warnings :
+																	</small>
+																	<small class="d-block w-100 text-success">
+																		01
+																	</small>
+																</div>
+																<span class="close" data-dismiss="modal" aria-label="Close">
+																	<img src="img/popup_close.png" alt="img" aria-hidden="true">
+																</span>
+															</div>
+															<ul class="d-flex align-items-center py-1">
+																<li>
+																	<small class="text-muted text-nowrap">Ammount :</small>
+																</li>
+																<li>
+																	<input type="text" class="form-control d-inline-flex bg-light ml-1 px-2 py-0 border-radius-6">
+																</li>
+															</ul>
+														</div>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-info btn-sm my-xl-0 my-2 w-100">
+																<h5 class="Inter text-white">
+																	Submit
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div>
+															<div class="d-flex align-items-center justify-content-between">
+																<div>
+																	<small class="d-block w-100">
+																		Current Warnings :
+																	</small>
+																	<small class="d-block w-100 text-success">
+																		01
+																	</small>
+																</div>
+																<span class="close" data-dismiss="modal" aria-label="Close">
+																	<img src="img/popup_close.png" alt="img" aria-hidden="true">
+																</span>
+															</div>
+															<ul class="d-flex align-items-center py-1">
+																<li>
+																	<small class="text-muted text-nowrap">Ammount :</small>
+																</li>
+																<li>
+																	<input type="text" class="form-control d-inline-flex bg-light ml-1 px-2 py-0 border-radius-6">
+																</li>
+															</ul>
+														</div>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-info btn-sm my-xl-0 my-2 w-100">
+																<h5 class="Inter text-white">
+																	Submit
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xl-12">
+													<small class="btn btn-danger mt-2 w-100 border-radius-4 Inter text-center text-500">
+														Hosted Sessions cannot be updated as Hosted sessions cannot accidentally be submitted
+													</small>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<div class="row additional-notes overflow-hidden">
+														<div class="col-sm-3 col-6">
+															<div class="form-control bg-light mb-1 p-2 border-radius-4">
+																<small class="d-block w-100">
+																	Attended Sessions
+																</small>
+																<small class="d-block w-100 text-success">
+																	1
+																</small>
+															</div>
+															<div class="form-control bg-light mb-1 p-2 border-radius-4">
+																<small class="d-block w-100">
+																	Hosted Sessions
+																</small>
+																<small class="d-block w-100 text-success">
+																	1
+																</small>
+															</div>
+															<div class="form-control bg-light p-2 border-radius-4">
+																<small class="d-block w-100">
+																	Warnings
+																</small>
+																<small class="d-block w-100 text-success">
+																	1
+																</small>
+															</div>
+														</div>
+														<div class="col-sm-6 d-none d-sm-block">
+															<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Additional Notes :"></textarea>
+														</div>
+														<div class="col-sm-3 col-6">
+															<select class="form-control bg-light px-2 py-0 border-radius-4">
+																<option value="0">--Select--</option>
+																<option value="1">Evaluation</option>
+															</select>
+															<!-- scrollbar -->
+															<div class="scrollbar p-1 bg-light mt-1" style="height: 70px;">
+																<a href="#" class="btn btn-success w-100 mb-1">
+																	<p class="Inter">
+																		Pass
+																	</p>
+																</a>
+																<a href="#" class="btn btn-success w-100 mb-1">
+																	<p class="Inter">
+																		Fail
+																	</p>
+																</a>
+																<a href="#" class="btn btn-success w-100 mb-1">
+																	<p class="Inter">
+																		Promote
+																	</p>
+																</a>
+																<a href="#" class="btn btn-success w-100 mb-1">
+																	<p class="Inter">
+																		Pass
+																	</p>
+																</a>
+															</div>
+															<!-- scrollbar -->
+
+														</div>
+														<div class="col-sm-6 d-sm-none d-block">
+															<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Additional Notes :"></textarea>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div class="d-flex align-items-center justify-content-between">
+															<div>
+																<small class="d-block w-100">
+																	Current Warnings :
+																</small>
+																<small class="d-block w-100 text-success">
+																	01
+																</small>
+															</div>
+															<span class="close" data-dismiss="modal" aria-label="Close">
+																<img src="img/popup_close.png" alt="img" aria-hidden="true">
+															</span>
+														</div>
+														<select class="form-control bg-light px-2 mt-1 py-0 border-radius-4">
+															<option value="0">Select Grade</option>
+															<option value="1">Evaluation</option>
+														</select>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-info btn-sm my-xl-0 my-2 w-100">
+																<h5 class="Inter text-white">
+																	Submit
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div class="d-flex align-items-center justify-content-between">
+															<div>
+																<small class="d-block w-100">
+																	Current Warnings :
+																</small>
+																<small class="d-block w-100 text-success">
+																	01
+																</small>
+															</div>
+															<span class="close" data-dismiss="modal" aria-label="Close">
+																<img src="img/popup_close.png" alt="img" aria-hidden="true">
+															</span>
+														</div>
+														<select class="form-control bg-light px-2 mt-1 py-0 border-radius-4">
+															<option value="0">Select Grade</option>
+															<option value="1">Evaluation</option>
+														</select>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-info btn-sm my-xl-0 my-2 w-100">
+																<h5 class="Inter text-white">
+																	Submit
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xl-12">
+													<small class="btn btn-danger mt-2 w-100 border-radius-4 Inter text-center text-500">
+														Are you sure you would like to Demote <b class="px-1">[User]</b> to <b class="px-1">[Rank]</b>
+													</small>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-danger p-3 border-radius-12">
+											<div class="row">
+												<div class="col-xl-12 mt-4">
+													<h6 class="text-white Inter text-center">Are you sure you would like to perform [Action] ?</h6>
+												</div>
+												<div class="col-xl-12">
+													<small class="btn mt-3 w-100 border-radius-4 Inter text-center text-500">
+														<h6 class="text-white">Yes</h6>
+													</small>
+												</div>
+												<div class="col-xl-12">
+													<small class="close btn btn-light mt-1 w-100 border-radius-4 Inter text-center text-500" data-dismiss="modal" aria-label="Close">
+														<h6 class="text-danger" aria-hidden="true">No</h6>
+													</small>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div class="d-flex align-items-center justify-content-between">
+															<div>
+																<small class="d-block w-100">
+																	Current Warnings :
+																</small>
+																<small class="d-block w-100 text-success">
+																	01
+																</small>
+															</div>
+															<span class="close" data-dismiss="modal" aria-label="Close">
+																<img src="img/popup_close.png" alt="img" aria-hidden="true">
+															</span>
+														</div>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-warning btn-sm mt-2 w-100">
+																<h5 class="Inter text-white">
+																	No
+																</h5>
+															</button>
+															<button type="button" class="btn btn-info btn-sm mt-1 w-100">
+																<h5 class="Inter text-white">
+																	Confirm
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col-xl-12">
+													<small class="btn btn-danger mt-2 w-100 border-radius-4 Inter text-center text-500">
+														Are you sure you would like to terminate <b class="px-1">[User]</b> to Hotel Guest
+													</small>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div>
+															<div class="d-flex align-items-center justify-content-between">
+																<div>
+																	<small class="d-block w-100">
+																		Add Points
+																	</small>
+																</div>
+																<span class="close" data-dismiss="modal" aria-label="Close">
+																	<img src="img/popup_close.png" alt="img" aria-hidden="true">
+																</span>
+															</div>
+															<ul class="d-flex align-items-center py-1">
+																<li>
+																	<small class="text-muted text-nowrap">Amount :</small>
+																</li>
+																<li>
+																	<input type="text" class="form-control d-inline-flex bg-light ml-1 px-2 py-0 border-radius-6">
+																</li>
+															</ul>
+														</div>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-warning btn-sm mt-2 w-100">
+																<h5 class="Inter text-white">
+																	Cancel
+																</h5>
+															</button>
+															<button type="button" class="btn btn-info btn-sm mt-1 w-100">
+																<h5 class="Inter text-white">
+																	Confirm
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div>
+															<div class="d-flex align-items-center justify-content-end">
+																<span class="close" data-dismiss="modal" aria-label="Close">
+																	<img src="img/popup_close.png" alt="img" aria-hidden="true">
+																</span>
+															</div>
+														</div>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-light btn-sm mt-2 w-100">
+																<h5 class="Inter">
+																	Wipe Points
+																</h5>
+															</button>
+															<button type="button" class="btn btn-warning btn-sm mt-2 w-100">
+																<h5 class="Inter text-white">
+																	Cancel
+																</h5>
+															</button>
+															<button type="button" class="btn btn-info btn-sm mt-1 w-100">
+																<h5 class="Inter text-white">
+																	Confirm
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+										<!-- popup-item -->
+										<div class="popup-item bg-white p-3 border-radius-12">
+											<div class="row">
+												<div class="col-lg-2 text-center d-flex flex-column">
+													<a href="#" class="btn btn-success w-100">
+														<p class="Inter">
+															Warn
+														</p>
+													</a>
+													<div class="mt-auto">
+														<div class="text-center pt-2">
+															<img src="img/popup_avatar.png" alt="img">
+														</div>
+														<p class="text-dark text-700 pt-2">
+															Zac1kio
+														</p>
+														<a href="#" class="btn btn-success btn-xs d-inline-flex py-0 px-xl-4 mt-1 mb-2 mb-xl-0"><small>Trainee</small></a>
+													</div>
+												</div>
+												<div class="col-lg-7">
+													<textarea class="form-control bg-muted p-2 w-100 border-radius-8 h-100" rows="4" placeholder="Reason :"></textarea>
+												</div>
+												<div class="col-lg-3">
+													<div class="d-flex flex-column h-100">
+														<div>
+															<div class="d-flex align-items-center justify-content-between">
+																<div>
+																	<small class="d-block w-100">
+																		Date Submitted :
+																	</small>
+																	<small class="d-block w-100 text-primary">
+																		11/05/2021 - 2:00 PM
+																	</small>
+																</div>
+																<span class="close" data-dismiss="modal" aria-label="Close">
+																	<img src="img/popup_close.png" alt="img" aria-hidden="true">
+																</span>
+															</div>
+														</div>
+														<div class="mt-auto">
+															<button type="button" class="btn btn-warning btn-sm mt-2 w-100">
+																<h5 class="Inter text-white">
+																	Decline
+																</h5>
+															</button>
+															<button type="button" class="btn btn-info btn-sm mt-1 w-100">
+																<h5 class="Inter text-white">
+																	Apporved
+																</h5>
+															</button>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<!-- popup-item -->
+									</div>
+								</div>
+							</form>
+							<!-- End popup modal -->
+
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<!-- End admin-rightSide -->
+
+		</section>
+		<!-- End admin-section -->
+		
+		<!-- jquery script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+        <!-- bootstrap script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+        <!-- magnific Script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+        <!-- slicknav Script -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.10/jquery.slicknav.min.js"></script>
+		
+        <!-- Scrollbar script -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.js"></script>
+
+        <!-- main script -->
+        <script src="js/main.js"></script>
+		
+	
+</body>
+</html>
