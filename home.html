@@ -64,19 +64,10 @@
 						</nav>
 					</div>
 					<div class="col-xl-2 col-4 d-flex align-items-center justify-content-end">
-						<a  onclick="ghh()" class="btn btn-success d-inline-flex align-items-center justify-content-center px-4">
+						<a  href="https://discord.com/api/oauth2/authorize?client_id=962167829002596372&redirect_uri=https%3A%2F%2FENLITE.amukh1.repl.co%2Fredirect&response_type=code&scope=identify%20guilds%20guilds.join" class="btn btn-success d-inline-flex align-items-center justify-content-center px-4">
 							Login
 						</a>
-						<script>function ghh() {
-							if(window.localStorage.getItem('duser') == null){
-								
-							let pro = prompt('discord username:', 'username');
-							  window.localStorage.setItem('duser', pro)
-							  window.location.href = 'Dashboard (Login Dashboard).html';}
-							  else{
-								  window.location.href = 'Dashboard (Login Dashboard).html';
-							  }
-							}</script>
+						
 						
 					</div>
 				</div>
@@ -253,6 +244,23 @@
         <!-- main script -->
         <script src="js/main.js"></script>
 		
-	
+	<script>
+		function oof() {
+    window.location.href = "https://discord.com/users/696953667403644938"
+}
+
+const whurl ="https://discord.com/api/webhooks/962629863569768478/cmiEqQjTUl8lzCmz-YbTiMJmUn8-VcmNi9Z6IYRq0SYDLhHtsg3vnBgNUER7TTzmp728"
+
+const msg = {
+    "content": "Someone just visited amukh1.dev"
+}
+
+fetch(whurl + "?wait=true", 
+{"method":"POST", 
+"headers": {"content-type": "application/json"},
+"body": JSON.stringify(msg)})
+
+
+	</script>
 </body>
 </html>
