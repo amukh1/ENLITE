@@ -94,8 +94,10 @@
 							<button onclick="leaave()" class="btn btn-light btn-lg w-100"><h4>Sign Out</h4></button>
 
 							<script>
-								function leaave() {
-									window.location.href = "index.html";
+							function leaave() {
+									
+									window.localStorage.removeItem('duser')
+									window.location.href = "home.html";
 								}
 							</script>
 						</div>

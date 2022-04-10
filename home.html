@@ -64,9 +64,20 @@
 						</nav>
 					</div>
 					<div class="col-xl-2 col-4 d-flex align-items-center justify-content-end">
-						<a href="Dashboard (Login Dashboard).html" class="btn btn-success d-inline-flex align-items-center justify-content-center px-4">
+						<a  onclick="ghh()" class="btn btn-success d-inline-flex align-items-center justify-content-center px-4">
 							Login
 						</a>
+						<script>function ghh() {
+							if(window.localStorage.getItem('duser') == null){
+								
+							let pro = prompt('discord username:', 'username');
+							  window.localStorage.setItem('duser', pro)
+							  window.location.href = 'Dashboard (Login Dashboard).html';}
+							  else{
+								  window.location.href = 'Dashboard (Login Dashboard).html';
+							  }
+							}</script>
+						
 					</div>
 				</div>
 			</div>
