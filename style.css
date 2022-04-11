@@ -228,7 +228,7 @@ ul li{list-style-type: none;}
   font-family: 'Inter';
 }
 .admin-section .text-success {
-	color: #517BAD !important;
+	color: #6091cc !important;
 }
 .admin-section.common-details .activity-item h5 {
 	font-family: 'Inter';
@@ -244,7 +244,7 @@ ul li{list-style-type: none;}
 }
 
 .admin-section .bg-success {
-  background-color: #517BAD !important;
+  background-color: #5f8dc5 !important;
 }
 .admin-section .min-h-42 {
   min-height: 42px;
@@ -343,7 +343,7 @@ ul li{list-style-type: none;}
   color: #CACACA;
 }
 .admin-section .bg-info .text-info-light {
-  color: #9BFFE1;
+  color: #7ca5d8;
 }
 .admin-section .player-profile-action {
 	margin-right: -.25rem;
@@ -371,8 +371,8 @@ ul li{list-style-type: none;}
 	line-height: 2;
 }
 .admin-section .btn-info {
-  background-color: #46DFB1;
-  border-color: #46DFB1;
+  background-color: #6697d3;
+  border-color: #6697d3;
 }
 .admin-section .btn-danger {
   background-color: #FF5858;
@@ -397,7 +397,7 @@ ul li{list-style-type: none;}
   width: 4px;
 }
 .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
-  background: #ADD580;
+  background: #517BAD;
 }
 .admin-section .scrollbar .mCSB_scrollTools .mCSB_draggerContainer {
   background-color: #EFEFEF;
@@ -443,7 +443,7 @@ ul li{list-style-type: none;}
 	right: -6px;
 }
 .admin-section .text-success-light {
-	color: #799E50;
+	color: #6697d3;
 }
 .admin-section .modal-lg {
 	max-width: 895px;
@@ -546,7 +546,7 @@ ul li{list-style-type: none;}
   font-size: 23.0747px;
   line-height: 27px;
   display: inline-block;
-  color: #C0D860;
+  color: #6697d3;
   position: relative;
   padding: 14px 10px;
 }
@@ -572,11 +572,11 @@ ul li{list-style-type: none;}
 .header-main .btn-success {
   width: 188.44px;
   min-height: 53.84px;
-  background: #E4F8BA;
+  background: #6697d3;
   border-radius: 16.1523px;
   max-width: 100%;
-  border-color: #E4F8BA;
-  color: #A5CB55;
+  border-color: #6697d3;
+  color: #517BAD;
   font-weight: 500;
   font-size: 23.0747px;
 }
@@ -654,7 +654,7 @@ ul li{list-style-type: none;}
 }
 .member-item {
 	min-height: 195.13px;
-	background: #E4F8BA;
+	background: #6697d3;
 	border-radius: 8.50877px;
 	padding: 16px;
 }
@@ -681,10 +681,10 @@ ul li{list-style-type: none;}
   line-height: 16px;
 }
 .public-body .text-success {
-  color: #ABD57D !important;
+  color: #6697d3 !important;
 }
 .member-info span,.member-info small {
-  color: #789048;
+  color: #517BAD;
   width: 100%;
   display: inline-block;
 }
@@ -794,7 +794,7 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 47.6744px;
   line-height: 56px;
-  color: #90B56F;
+  color: #6697d3;
   margin-bottom: 30px;
 }
 .info-img {
@@ -868,11 +868,11 @@ ul li{list-style-type: none;}
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #90B56F !important;
+  color: #6697d3 !important;
 }
 .site-faq h4 {
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(127.29deg, #BBE191 7.5%, #87E378 94.05%), linear-gradient(0deg, #007FE0, #007FE0);
+  background: linear-gradient(127.29deg, #6697d3 7.5%, #517BAD 94.05%), linear-gradient(0deg, #007FE0, #007FE0);
   background-clip: border-box;
   -webkit-background-clip: text;
   font-weight: bold;
