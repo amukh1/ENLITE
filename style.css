@@ -325,7 +325,7 @@ ul li{list-style-type: none;}
   color: #808080 !important;
 }
 .admin-section .bg-info {
-  background-color: #46DFB1 !important;
+  background-color: #517BAD !important;
 }
 .admin-section .text-info {
   color: #007250 !important;
@@ -334,7 +334,7 @@ ul li{list-style-type: none;}
   font-weight: 500;
 }
 .admin-section .form-control::placeholder {
-  color: #E6F7D3;
+  color: #6697d3;
 }
 .admin-section .recent-activity {
   border-radius: 0 0 12px 12px;
