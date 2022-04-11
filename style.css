@@ -136,7 +136,7 @@ ul li{list-style-type: none;}
 
 .admin-section .site-nav > ul > li > a {
   display: flex;
-  color: #B4DC87;
+  color: #517BAD;
   padding: 22px 30px;
   font-family: Inter;
   font-style: normal;
@@ -152,7 +152,7 @@ ul li{list-style-type: none;}
   background: transparent;
 }
 .admin-section .site-nav > ul > li.active a, .site-nav > ul > li a:hover {
-  background: #B4DC87;
+  background: #517BAD;
   border-radius: 12px;
   color: #fff;
 }
@@ -228,7 +228,7 @@ ul li{list-style-type: none;}
   font-family: 'Inter';
 }
 .admin-section .text-success {
-	color: #B4DC87 !important;
+	color: #517BAD !important;
 }
 .admin-section.common-details .activity-item h5 {
 	font-family: 'Inter';
@@ -244,7 +244,7 @@ ul li{list-style-type: none;}
 }
 
 .admin-section .bg-success {
-  background-color: #B4DC87 !important;
+  background-color: #517BAD !important;
 }
 .admin-section .min-h-42 {
   min-height: 42px;
@@ -283,8 +283,8 @@ ul li{list-style-type: none;}
 }
 .admin-section .btn-success {
   color: #fff;
-  background-color: #B4DC87;
-  border-color: #B4DC87;
+  background-color: #517BAD;
+  border-color: #517BAD;
 }
 .admin-section .btn {
 	line-height: 1;
@@ -392,7 +392,7 @@ ul li{list-style-type: none;}
   display: none;
 }
 .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background: #B4DC87;
+  background: #517BAD;
   border-radius: 14px;
   width: 4px;
 }
@@ -770,14 +770,14 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 51.027px;
   line-height: 60px;
-  color: #90B56F !important;
+  color: #517BAD !important;
   margin-bottom: 30px;
 }
 .page-title p {
   font-weight: bold;
   font-size: 19.1351px;
   line-height: 22px;
-  color: #B4DC87;
+  color: #517BAD;
 }
 .info-box {
 	min-height: 374px;
@@ -821,7 +821,7 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 19.1351px;
   line-height: 22px;
-  color: #B4DC87;
+  color: #517BAD;
   margin-bottom: 30px;
 }
 .btn-danger-gradient {
