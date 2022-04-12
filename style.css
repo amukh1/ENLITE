@@ -328,7 +328,7 @@ ul li{list-style-type: none;}
   background-color: #517BAD !important;
 }
 .admin-section .text-info {
-  color: #007250 !important;
+  color: #517BAD !important;
 }
 .admin-section .recent-activity-box h3 {
   font-weight: 500;
@@ -371,8 +371,8 @@ ul li{list-style-type: none;}
 	line-height: 2;
 }
 .admin-section .btn-info {
-  background-color: #6697d3;
-  border-color: #6697d3;
+  background-color: #96eb7f;
+  border-color: #96eb7f;
 }
 .admin-section .btn-danger {
   background-color: #FF5858;
@@ -654,7 +654,7 @@ ul li{list-style-type: none;}
 }
 .member-item {
 	min-height: 195.13px;
-	background: #6697d3;
+	background: #ffffff;
 	border-radius: 8.50877px;
 	padding: 16px;
 }
