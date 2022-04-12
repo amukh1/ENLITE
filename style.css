@@ -654,7 +654,7 @@ ul li{list-style-type: none;}
 }
 .member-item {
 	min-height: 195.13px;
-	background: #ffffff;
+	background: #6091cc;
 	border-radius: 8.50877px;
 	padding: 16px;
 }
@@ -673,7 +673,7 @@ ul li{list-style-type: none;}
   transform: translateY(-50%);
 }
 .public-body .text-dark {
-  color: #ffffff !important;
+  color: #6091cc !important;
 }
 .member-name p {
   font-weight: bold;
@@ -681,10 +681,10 @@ ul li{list-style-type: none;}
   line-height: 16px;
 }
 .public-body .text-success {
-  color: #ffffff !important;
+  color: #6091cc !important;
 }
 .member-info span,.member-info small {
-  color: #ffffff;
+  color: #6091cc;
   width: 100%;
   display: inline-block;
 }
@@ -740,7 +740,7 @@ ul li{list-style-type: none;}
   font-size: 27.2281px;
   line-height: 32px;
   text-align: center;
-  color: #ffffff;
+  color: #6091cc;
   padding: 38px 0 28px;
 }
 .member-slider {
@@ -781,7 +781,7 @@ ul li{list-style-type: none;}
 }
 .info-box {
 	min-height: 374px;
-	background: #FFFFFF;
+	background: #6091cc;
 	border-radius: 49.964px;
 	width: 454px;
 	padding: 20px;
