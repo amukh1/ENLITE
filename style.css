@@ -648,7 +648,7 @@ ul li{list-style-type: none;}
 	font-size: 46.8938px;
 	line-height: 55px;
 	text-align: center;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(96.2deg, #A8D480 1.04%, #C0D860 113.15%);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(96.2deg, #6091cc 1.04%, #517BAD 113.15%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -801,7 +801,7 @@ ul li{list-style-type: none;}
   margin-top: 50px;
 }
 .public-body .btn-success-gradient {
-  background: linear-gradient(127.29deg, #BBE191 7.5%, #87E378 94.05%);
+  background: linear-gradient(127.29deg, #6091cc 7.5%, #517BAD 94.05%);
   border-radius: 49.964px;
   border: 0;
   height: 97.8px;
