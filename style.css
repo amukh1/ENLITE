@@ -681,7 +681,7 @@ ul li{list-style-type: none;}
   line-height: 16px;
 }
 .public-body .text-success {
-  color: #6697d3 !important;
+  color: #ffffff !important;
 }
 .member-info span,.member-info small {
   color: #517BAD;
@@ -740,7 +740,7 @@ ul li{list-style-type: none;}
   font-size: 27.2281px;
   line-height: 32px;
   text-align: center;
-  color: #604848;
+  color: #ffffff;
   padding: 38px 0 28px;
 }
 .member-slider {
