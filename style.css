@@ -684,7 +684,7 @@ ul li{list-style-type: none;}
   color: #6091cc !important;
 }
 .member-info span,.member-info small {
-  color: #6091cc;
+  color: #ffffff;
   width: 100%;
   display: inline-block;
 }
@@ -740,7 +740,7 @@ ul li{list-style-type: none;}
   font-size: 27.2281px;
   line-height: 32px;
   text-align: center;
-  color: #6091cc;
+  color: #ffffff;
   padding: 38px 0 28px;
 }
 .member-slider {
@@ -781,7 +781,7 @@ ul li{list-style-type: none;}
 }
 .info-box {
 	min-height: 374px;
-	background: #6091cc;
+	background: #FFFFFF;
 	border-radius: 49.964px;
 	width: 454px;
 	padding: 20px;
