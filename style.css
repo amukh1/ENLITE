@@ -273,7 +273,7 @@ ul li{list-style-type: none;}
 	border-radius: 3.9px;
 }
 .admin-section .player-profile {
-	background: #FFFFFF;
+	background: #6091cc;
 	box-shadow: 0px 5.18023px 29.1977px rgba(152, 209, 244, 0.44);
 	border-radius: 7.06395px;
 	width: 106px;
@@ -673,7 +673,7 @@ ul li{list-style-type: none;}
   transform: translateY(-50%);
 }
 .public-body .text-dark {
-  color: #604848 !important;
+  color: #ffffff !important;
 }
 .member-name p {
   font-weight: bold;
@@ -684,7 +684,7 @@ ul li{list-style-type: none;}
   color: #ffffff !important;
 }
 .member-info span,.member-info small {
-  color: #517BAD;
+  color: #ffffff;
   width: 100%;
   display: inline-block;
 }
