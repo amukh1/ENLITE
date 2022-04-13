@@ -132,7 +132,7 @@ Author URI  : https://www.tigertemplate.com
 	}
 	.slicknav_nav li a {
 		padding: 15px;
-		color: #2C3D46;
+		color: #1f6aed;
 	}
 	.slicknav_icon-bar {
 	  background-color: #fff !important;
@@ -163,7 +163,7 @@ Author URI  : https://www.tigertemplate.com
 		content: '\2716';
 		position: absolute;
 		left: calc(100% - 50px);
-		color: #3c4c1c;
+		color: #1f6aed;
 		font-size: 30px;
 		top: 5px;
 	}
