@@ -1,6 +1,5 @@
 /*------------------------------------------------------------------
 [Main Stylesheet]
-
 Project     : p1-UkipaHtml
 Version     : 1.0
 Author      : Md Ekramul Hassan Avi
@@ -17,12 +16,10 @@ Author URI  : https://www.tigertemplate.com
 
 /*------------------------------------------------------------------
 [Table of contents]
-
 1.  reset css
 2.  common-details css
 3.  admin css
 4.  public css
-
 -------------------------------------------------------------------*/
 
 /*
@@ -136,7 +133,7 @@ ul li{list-style-type: none;}
 
 .admin-section .site-nav > ul > li > a {
   display: flex;
-  color: #517BAD;
+  color: #B4DC87;
   padding: 22px 30px;
   font-family: Inter;
   font-style: normal;
@@ -152,7 +149,7 @@ ul li{list-style-type: none;}
   background: transparent;
 }
 .admin-section .site-nav > ul > li.active a, .site-nav > ul > li a:hover {
-  background: #517BAD;
+  background: #B4DC87;
   border-radius: 12px;
   color: #fff;
 }
@@ -228,7 +225,7 @@ ul li{list-style-type: none;}
   font-family: 'Inter';
 }
 .admin-section .text-success {
-	color: #6091cc !important;
+	color: #B4DC87 !important;
 }
 .admin-section.common-details .activity-item h5 {
 	font-family: 'Inter';
@@ -244,7 +241,7 @@ ul li{list-style-type: none;}
 }
 
 .admin-section .bg-success {
-  background-color: #5f8dc5 !important;
+  background-color: #B4DC87 !important;
 }
 .admin-section .min-h-42 {
   min-height: 42px;
@@ -273,7 +270,7 @@ ul li{list-style-type: none;}
 	border-radius: 3.9px;
 }
 .admin-section .player-profile {
-	background: #6091cc;
+	background: #FFFFFF;
 	box-shadow: 0px 5.18023px 29.1977px rgba(152, 209, 244, 0.44);
 	border-radius: 7.06395px;
 	width: 106px;
@@ -283,8 +280,8 @@ ul li{list-style-type: none;}
 }
 .admin-section .btn-success {
   color: #fff;
-  background-color: #517BAD;
-  border-color: #517BAD;
+  background-color: #B4DC87;
+  border-color: #B4DC87;
 }
 .admin-section .btn {
 	line-height: 1;
@@ -325,16 +322,16 @@ ul li{list-style-type: none;}
   color: #808080 !important;
 }
 .admin-section .bg-info {
-  background-color: #517BAD !important;
+  background-color: #46DFB1 !important;
 }
 .admin-section .text-info {
-  color: #517BAD !important;
+  color: #007250 !important;
 }
 .admin-section .recent-activity-box h3 {
   font-weight: 500;
 }
 .admin-section .form-control::placeholder {
-  color: #6697d3;
+  color: #E6F7D3;
 }
 .admin-section .recent-activity {
   border-radius: 0 0 12px 12px;
@@ -343,7 +340,7 @@ ul li{list-style-type: none;}
   color: #CACACA;
 }
 .admin-section .bg-info .text-info-light {
-  color: #7ca5d8;
+  color: #9BFFE1;
 }
 .admin-section .player-profile-action {
 	margin-right: -.25rem;
@@ -371,8 +368,8 @@ ul li{list-style-type: none;}
 	line-height: 2;
 }
 .admin-section .btn-info {
-  background-color: #96eb7f;
-  border-color: #96eb7f;
+  background-color: #46DFB1;
+  border-color: #46DFB1;
 }
 .admin-section .btn-danger {
   background-color: #FF5858;
@@ -392,12 +389,12 @@ ul li{list-style-type: none;}
   display: none;
 }
 .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background: #517BAD;
+  background: #B4DC87;
   border-radius: 14px;
   width: 4px;
 }
 .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
-  background: #517BAD;
+  background: #ADD580;
 }
 .admin-section .scrollbar .mCSB_scrollTools .mCSB_draggerContainer {
   background-color: #EFEFEF;
@@ -443,7 +440,7 @@ ul li{list-style-type: none;}
 	right: -6px;
 }
 .admin-section .text-success-light {
-	color: #6697d3;
+	color: #799E50;
 }
 .admin-section .modal-lg {
 	max-width: 895px;
@@ -546,7 +543,7 @@ ul li{list-style-type: none;}
   font-size: 23.0747px;
   line-height: 27px;
   display: inline-block;
-  color: #6697d3;
+  color: #C0D860;
   position: relative;
   padding: 14px 10px;
 }
@@ -572,11 +569,11 @@ ul li{list-style-type: none;}
 .header-main .btn-success {
   width: 188.44px;
   min-height: 53.84px;
-  background: #6697d3;
+  background: #E4F8BA;
   border-radius: 16.1523px;
   max-width: 100%;
-  border-color: #6697d3;
-  color: #517BAD;
+  border-color: #E4F8BA;
+  color: #A5CB55;
   font-weight: 500;
   font-size: 23.0747px;
 }
@@ -600,7 +597,7 @@ ul li{list-style-type: none;}
 }
 .banner-inner2 {
   height: 303px;
-  background: linear-gradient(127.29deg, #6091cc 7.5%, #517BAD 94.05%);
+  background: linear-gradient(127.29deg, #BBE191 7.5%, #87E378 94.05%);
   border-radius: 18.8444px;
   padding: 20px 80px;
   margin-bottom: 96px;
@@ -623,7 +620,7 @@ ul li{list-style-type: none;}
 	font-size: 63.6252px;
 	line-height: 75px;
 	text-align: right;
-	color: #6091cc;
+	color: #FFFFFF;
 }
 .banner-item h2 {
 	font-weight: bold;
@@ -636,7 +633,7 @@ ul li{list-style-type: none;}
 }
 .member-head {
   min-height: 180px;
-  background: #6091cc;
+  background: #FFFFFF;
   box-shadow: 0px 2.72745px 59.3221px rgba(164, 164, 164, 0.3);
   border-radius: 17.947px;
   position: relative;
@@ -648,13 +645,13 @@ ul li{list-style-type: none;}
 	font-size: 46.8938px;
 	line-height: 55px;
 	text-align: center;
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(96.2deg, #6091cc 1.04%, #517BAD 113.15%);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(96.2deg, #A8D480 1.04%, #C0D860 113.15%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
 .member-item {
 	min-height: 195.13px;
-	background: #6091cc;
+	background: #E4F8BA;
 	border-radius: 8.50877px;
 	padding: 16px;
 }
@@ -673,7 +670,7 @@ ul li{list-style-type: none;}
   transform: translateY(-50%);
 }
 .public-body .text-dark {
-  color: #6091cc !important;
+  color: #604848 !important;
 }
 .member-name p {
   font-weight: bold;
@@ -681,10 +678,10 @@ ul li{list-style-type: none;}
   line-height: 16px;
 }
 .public-body .text-success {
-  color: #6091cc !important;
+  color: #ABD57D !important;
 }
 .member-info span,.member-info small {
-  color: #ffffff;
+  color: #789048;
   width: 100%;
   display: inline-block;
 }
@@ -740,7 +737,7 @@ ul li{list-style-type: none;}
   font-size: 27.2281px;
   line-height: 32px;
   text-align: center;
-  color: #ffffff;
+  color: #604848;
   padding: 38px 0 28px;
 }
 .member-slider {
@@ -770,14 +767,14 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 51.027px;
   line-height: 60px;
-  color: #517BAD !important;
+  color: #90B56F !important;
   margin-bottom: 30px;
 }
 .page-title p {
   font-weight: bold;
   font-size: 19.1351px;
   line-height: 22px;
-  color: #517BAD;
+  color: #B4DC87;
 }
 .info-box {
 	min-height: 374px;
@@ -794,14 +791,14 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 47.6744px;
   line-height: 56px;
-  color: #6697d3;
+  color: #90B56F;
   margin-bottom: 30px;
 }
 .info-img {
   margin-top: 50px;
 }
 .public-body .btn-success-gradient {
-  background: linear-gradient(127.29deg, #6091cc 7.5%, #517BAD 94.05%);
+  background: linear-gradient(127.29deg, #BBE191 7.5%, #87E378 94.05%);
   border-radius: 49.964px;
   border: 0;
   height: 97.8px;
@@ -821,7 +818,7 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 19.1351px;
   line-height: 22px;
-  color: #517BAD;
+  color: #B4DC87;
   margin-bottom: 30px;
 }
 .btn-danger-gradient {
@@ -868,11 +865,11 @@ ul li{list-style-type: none;}
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #6697d3 !important;
+  color: #90B56F !important;
 }
 .site-faq h4 {
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(127.29deg, #6697d3 7.5%, #517BAD 94.05%), linear-gradient(0deg, #007FE0, #007FE0);
+  background: linear-gradient(127.29deg, #BBE191 7.5%, #87E378 94.05%), linear-gradient(0deg, #007FE0, #007FE0);
   background-clip: border-box;
   -webkit-background-clip: text;
   font-weight: bold;
