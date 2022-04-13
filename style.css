@@ -133,7 +133,7 @@ ul li{list-style-type: none;}
 
 .admin-section .site-nav > ul > li > a {
   display: flex;
-  color: #247af2;
+  color: #1f6aed;
   padding: 22px 30px;
   font-family: Inter;
   font-style: normal;
@@ -149,7 +149,7 @@ ul li{list-style-type: none;}
   background: transparent;
 }
 .admin-section .site-nav > ul > li.active a, .site-nav > ul > li a:hover {
-  background: #B4DC87;
+  background: #1f6aed;
   border-radius: 12px;
   color: #fff;
 }
@@ -225,7 +225,7 @@ ul li{list-style-type: none;}
   font-family: 'Inter';
 }
 .admin-section .text-success {
-	color: #B4DC87 !important;
+	color: #1f6aed !important;
 }
 .admin-section.common-details .activity-item h5 {
 	font-family: 'Inter';
@@ -241,7 +241,7 @@ ul li{list-style-type: none;}
 }
 
 .admin-section .bg-success {
-  background-color: #B4DC87 !important;
+  background-color: #1f6aed !important;
 }
 .admin-section .min-h-42 {
   min-height: 42px;
@@ -280,8 +280,8 @@ ul li{list-style-type: none;}
 }
 .admin-section .btn-success {
   color: #fff;
-  background-color: #B4DC87;
-  border-color: #B4DC87;
+  background-color: #1f6aed;
+  border-color: #1f6aed;
 }
 .admin-section .btn {
 	line-height: 1;
@@ -325,7 +325,7 @@ ul li{list-style-type: none;}
   background-color: #46DFB1 !important;
 }
 .admin-section .text-info {
-  color: #007250 !important;
+  color: #1f6aed !important;
 }
 .admin-section .recent-activity-box h3 {
   font-weight: 500;
@@ -389,12 +389,12 @@ ul li{list-style-type: none;}
   display: none;
 }
 .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
-  background: #B4DC87;
+  background: #1f6aed;
   border-radius: 14px;
   width: 4px;
 }
 .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .admin-section .scrollbar .mCS-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar {
-  background: #ADD580;
+  background: #1f6aed;
 }
 .admin-section .scrollbar .mCSB_scrollTools .mCSB_draggerContainer {
   background-color: #EFEFEF;
@@ -440,7 +440,7 @@ ul li{list-style-type: none;}
 	right: -6px;
 }
 .admin-section .text-success-light {
-	color: #799E50;
+	color: #1f6aed;
 }
 .admin-section .modal-lg {
 	max-width: 895px;
@@ -573,7 +573,7 @@ ul li{list-style-type: none;}
   border-radius: 16.1523px;
   max-width: 100%;
   border-color: #E4F8BA;
-  color: #A5CB55;
+  color: #1f6aed;
   font-weight: 500;
   font-size: 23.0747px;
 }
@@ -597,7 +597,7 @@ ul li{list-style-type: none;}
 }
 .banner-inner2 {
   height: 303px;
-  background: linear-gradient(127.29deg, #BBE191 7.5%, #87E378 94.05%);
+  background: linear-gradient(127.29deg, #85a9e8 7.5%, #1f6aed 94.05%);
   border-radius: 18.8444px;
   padding: 20px 80px;
   margin-bottom: 96px;
@@ -651,7 +651,7 @@ ul li{list-style-type: none;}
 }
 .member-item {
 	min-height: 195.13px;
-	background: #E4F8BA;
+	background: #759fe7;
 	border-radius: 8.50877px;
 	padding: 16px;
 }
@@ -678,7 +678,7 @@ ul li{list-style-type: none;}
   line-height: 16px;
 }
 .public-body .text-success {
-  color: #ABD57D !important;
+  color: #1f6aed !important;
 }
 .member-info span,.member-info small {
   color: #789048;
@@ -767,14 +767,14 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 51.027px;
   line-height: 60px;
-  color: #90B56F !important;
+  color: #1f6aed !important;
   margin-bottom: 30px;
 }
 .page-title p {
   font-weight: bold;
   font-size: 19.1351px;
   line-height: 22px;
-  color: #B4DC87;
+  color: #1f6aed;
 }
 .info-box {
 	min-height: 374px;
@@ -791,7 +791,7 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 47.6744px;
   line-height: 56px;
-  color: #90B56F;
+  color: #1f6aed;
   margin-bottom: 30px;
 }
 .info-img {
@@ -818,7 +818,7 @@ ul li{list-style-type: none;}
   font-weight: bold;
   font-size: 19.1351px;
   line-height: 22px;
-  color: #B4DC87;
+  color: #1f6aed;
   margin-bottom: 30px;
 }
 .btn-danger-gradient {
@@ -865,11 +865,11 @@ ul li{list-style-type: none;}
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
-  color: #90B56F !important;
+  color: #1f6aed !important;
 }
 .site-faq h4 {
   -webkit-text-fill-color: transparent;
-  background: linear-gradient(127.29deg, #BBE191 7.5%, #87E378 94.05%), linear-gradient(0deg, #007FE0, #007FE0);
+  background: linear-gradient(127.29deg, #88aff2 7.5%, #1f6aed 94.05%), linear-gradient(0deg, #007FE0, #007FE0);
   background-clip: border-box;
   -webkit-background-clip: text;
   font-weight: bold;
