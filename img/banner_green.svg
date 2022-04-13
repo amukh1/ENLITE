@@ -2,12 +2,12 @@
 <rect x="1.21332" y="0.64411" width="1545.34" height="302.103" rx="18.3957" fill="url(#paint0_linear_18_504)" stroke="url(#paint1_linear_18_504)" stroke-width="0.897351"/>
 <defs>
 <linearGradient id="paint0_linear_18_504" x1="203.829" y1="0.480902" x2="350.21" y2="569.416" gradientUnits="userSpaceOnUse">
-<stop stop-color="#BBE191"/>
-<stop offset="1" stop-color="#517BAD"/>
+<stop stop-color="#1f6aed"/>
+<stop offset="1" stop-color="#1f6aed"/>
 </linearGradient>
 <linearGradient id="paint1_linear_18_504" x1="0.764648" y1="0.195435" x2="1484.81" y2="822.424" gradientUnits="userSpaceOnUse">
-<stop offset="0.00923243" stop-color="#8bb5e8"/>
-<stop offset="1" stop-color="#6091cc"/>
+<stop offset="0.00923243" stop-color="#1f6aed"/>
+<stop offset="1" stop-color="#1f6aed"/>
 </linearGradient>
 </defs>
 </svg>
