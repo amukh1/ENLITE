@@ -113,7 +113,7 @@
 								<h3 class="mb-2">
 									Good Morning,
 								</h3>
-								<h1>
+								<h1 id="z4">
 									Z4CK6RY
 								</h1>
 							</div>
@@ -313,6 +313,21 @@
         <!-- main script -->
         <script src="js/main.js"></script>
 		
-	
+	<script>
+
+let xhr = new XMLHttpRequest();
+xhr.open('GET', 'https://v3.blox.link/developer/discord/696953667403644938')
+xhr.setRequestHeader('api-key','673988d3-73f3-4db7-90d6-729d7929b49ce8b1792f-de17-4f81-80a6-6561dc15401dcd480550-4c21-402a-92d3-df72e7a12be7')
+xhr.onload = function() {
+    let data = JSON.parse(xhr.response)
+    console.log(data)
+    console.log(data.user.robloxId)
+	document.getElementById('z4').innerHTML = data.user.robloxId
+//   fetch(`https://users.roblox.com/v1/users/167284861`, {
+//       mode: 'no-cors'
+//   }).then(res => res.json()).then(d=>console.log(d))
+}
+xhr.send(null)
+	</script>
 </body>
 </html>
