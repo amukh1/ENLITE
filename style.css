@@ -331,7 +331,7 @@ ul li{list-style-type: none;}
   font-weight: 500;
 }
 .admin-section .form-control::placeholder {
-  color: #E6F7D3;
+  color: #a3c139;
 }
 .admin-section .recent-activity {
   border-radius: 0 0 12px 12px;
