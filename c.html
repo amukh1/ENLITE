@@ -18,9 +18,9 @@ var ctx = document.getElementById('myChart').getContext('2d');
                 labels: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
                 datasets: [{
                     label: 'Total Minutes',
-                    data: [12, 14, 8.7, 12, 16.5, 18, 16, 21, 24, 20, 25, 30],
                     stack: 'combined',
                     type: 'bar',
+                    data: [12, 14, 8.7, 12, 16.5, 18, 16, 21, 24, 20, 25, 30],
                     backgroundColor: [
                     transparentize('rgba(31, 106, 237)', 0.5),
                     transparentize('rgba(31, 106, 237)', 0.5),
@@ -52,7 +52,11 @@ var ctx = document.getElementById('myChart').getContext('2d');
                     transparentize('rgba(31, 106, 237)', 0.5)
 
                     ],
+<<<<<<< HEAD
+                    borderWidth: 1,
+=======
                     borderWidth: 1
+>>>>>>> 2f1958d1cc8ddf495627d95df73f7e289a3cd936
                 }]
             },
             options: {
