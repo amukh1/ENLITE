@@ -202,7 +202,7 @@
 							<div class="col-xl-3 col-6 my-3">
 								<div class="activity-item bg-white p-3">
 									<h5>Total Minutes</h5>
-									<h5 class="text-success py-1">731/110</h5>
+									<h5 class="text-success py-1" id="py21">731/110</h5>
 									<img src="img/activities_border.png" alt="img" class="w-100">
 								</div>
 							</div>
@@ -336,6 +336,16 @@ xhrd.onload = function() {
 xhrd.send(null)
 }
 xhr.send(null)
+
+
+let xhr2 = new XMLHttpRequest();
+xhr2.open('GET', `https://enlite.amukh1dev.repl.co/tm4?id=${id}`)
+xhr2.onload = function() {
+	console.log(xhr2.response)
+document.getElementById('py21').innerHTML = xhr2.response
+
+}
+
 	</script>
 </body>
 </html>
