@@ -223,7 +223,7 @@
 							<div class="col-xl-3 col-6 my-3">
 								<div class="activity-item bg-white p-3">
 									<h5>Warnings</h5>
-									<h5 class="text-success py-1">0/3</h5>
+									<h5 class="text-success py-1" id="py24">0/3</h5>
 									<!-- <img src="img/activities_border.png" alt="img" class="w-100"> -->
 								</div>
 							</div>
@@ -361,6 +361,27 @@ document.getElementById('py23').innerHTML = xhr4.response
 
 }
 xhr4.send(null)
+
+
+let xhr5 = new XMLHttpRequest();
+xhr5.open('GET', `https://enlite.amukh1dev.repl.co/hs2?id=${data.user.robloxId}`)
+xhr5.onload = function() {
+	console.log(xhr5.response)
+document.getElementById('py23').innerHTML = xhr4.response
+
+}
+xhr5.send(null)
+
+
+let xhr6 = new XMLHttpRequest();
+xhr6.open('GET', `https://enlite.amukh1dev.repl.co/warn2?id=${data.user.robloxId}`)
+xhr6.onload = function() {
+	console.log(xhr6.response)
+document.getElementById('py24').innerHTML = `${xhr6.response}/3`
+
+}
+xhr6.send(null)
+
 }
 xhr.send(null)
 
