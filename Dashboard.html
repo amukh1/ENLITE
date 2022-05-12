@@ -331,7 +331,7 @@ let xhrd = new XMLHttpRequest();
 xhrd.open('GET', `https://enlite.amukh1dev.repl.co/tm3?id=${data.user.robloxId}`)
 xhrd.onload = function() {
 	console.log(xhrd.response)
-	document.getElementById('z4').innerHTML = xhr.responseText
+	document.getElementById('z4').innerHTML = xhrd.response
 }
 xhrd.send(null)
 }
