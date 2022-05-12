@@ -209,7 +209,7 @@
 							<div class="col-xl-3 col-6 my-3">
 								<div class="activity-item bg-white p-3">
 									<h5>Attended Sessions</h5>
-									<h5 class="text-success py-1">15/4</h5>
+									<h5 class="text-success py-1" id="py22">15/4</h5>
 									<img src="img/activities_border.png" alt="img" class="w-100">
 								</div>
 							</div>
@@ -343,6 +343,24 @@ document.getElementById('py21').innerHTML = xhr2.response
 
 }
 xhr2.send(null)
+
+let xhr3 = new XMLHttpRequest();
+xhr3.open('GET', `https://enlite.amukh1dev.repl.co/as2?id=${data.user.robloxId}`)
+xhr3.onload = function() {
+	console.log(xhr3.response)
+document.getElementById('py22').innerHTML = xhr3.response
+
+}
+xhr3.send(null)
+
+let xhr4 = new XMLHttpRequest();
+xhr4.open('GET', `https://enlite.amukh1dev.repl.co/hs2?id=${data.user.robloxId}`)
+xhr4.onload = function() {
+	console.log(xhr4.response)
+document.getElementById('py23').innerHTML = xhr4.response
+
+}
+xhr4.send(null)
 }
 xhr.send(null)
 
