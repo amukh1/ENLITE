@@ -313,7 +313,7 @@
         <script src="js/main.js"></script>
 		
 	<script>
-
+let id
 let xhr = new XMLHttpRequest();
 xhr.open('GET', `https://v3.blox.link/developer/discord/${window.location.hash.split("#")[1]}`)
 xhr.setRequestHeader('api-key','673988d3-73f3-4db7-90d6-729d7929b49ce8b1792f-de17-4f81-80a6-6561dc15401dcd480550-4c21-402a-92d3-df72e7a12be7')
@@ -322,7 +322,8 @@ xhr.onload = function() {
     console.log(data)
     console.log(data.user.robloxId)
 	document.getElementById('z4').innerHTML = data.user.robloxId
-  fetch(`http://192.81.209.177:801/tm3?id=${data.user.robloxId}`).then(res => {console.log(res)
+	id=data.user.robloxId
+  fetch(`https://enlite.amukh1dev.repl.co/tm3?id=${data.user.robloxId}`).then(res => {console.log(res)
 	document.getElementById('z4').innerHTML = res
 })
 }
