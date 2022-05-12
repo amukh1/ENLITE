@@ -334,18 +334,20 @@ xhrd.onload = function() {
 	document.getElementById('z4').innerHTML = xhrd.response
 }
 xhrd.send(null)
-}
-xhr.send(null)
-
 
 let xhr2 = new XMLHttpRequest();
-xhr2.open('GET', `https://enlite.amukh1dev.repl.co/tm4?id=${id}`)
+xhr2.open('GET', `https://enlite.amukh1dev.repl.co/tm4?id=${data.user.robloxId}`)
 xhr2.onload = function() {
 	console.log(xhr2.response)
 document.getElementById('py21').innerHTML = xhr2.response
 
 }
 xhr2.send(null)
+}
+xhr.send(null)
+
+
+
 
 	</script>
 </body>
