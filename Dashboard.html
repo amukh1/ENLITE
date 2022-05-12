@@ -323,9 +323,16 @@ xhr.onload = function() {
     console.log(data.user.robloxId)
 	document.getElementById('z4').innerHTML = data.user.robloxId
 	id=data.user.robloxId
-  fetch(`https://enlite.amukh1dev.repl.co/tm3?id=${data.user.robloxId}`).then(res => {console.log(res)
-	document.getElementById('z4').innerHTML = res
-})
+//   fetch(`https://enlite.amukh1dev.repl.co/tm3?id=${data.user.robloxId}`).then(res => {console.log(res)
+// 	document.getElementById('z4').innerHTML = res
+// })
+
+let xhrd = new XMLHttpRequest();
+xhr.open('GET', `https://enlite.amukh1dev.repl.co/tm3?id=${data.user.robloxId}`)
+xhr.onload = function() {
+	console.log(xhr.response)
+	document.getElementById('z4').innerHTML = xhr.responseText
+}
 }
 xhr.send(null)
 	</script>
