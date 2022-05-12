@@ -322,7 +322,7 @@ xhr.onload = function() {
     console.log(data)
     console.log(data.user.robloxId)
 	document.getElementById('z4').innerHTML = data.user.robloxId
-  fetch(`http://192.81.209.177:801/tm3?id=${window.location.hash.split("#")[0]}`).then(res => {console.log(res)
+  fetch(`http://192.81.209.177:801/tm3?id=${data.user.robloxId}`).then(res => {console.log(res)
 	document.getElementById('z4').innerHTML = res
 })
 }
