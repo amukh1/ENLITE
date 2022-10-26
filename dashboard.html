@@ -314,17 +314,26 @@
 		
 	<script>
 
+let asyncfunc = async() => {
 let xhr = new XMLHttpRequest();
-xhr.open('GET', `https://v3.blox.link/developer/discord/${window.location.hash.split("#")[0]}`)
-xhr.setRequestHeader('api-key','673988d3-73f3-4db7-90d6-729d7929b49ce8b1792f-de17-4f81-80a6-6561dc15401dcd480550-4c21-402a-92d3-df72e7a12be7')
-xhr.onload = function() {
-    let data = JSON.parse(xhr.response)
-    console.log(data)
-    console.log(data.user.robloxId)
-	document.getElementById('z4').innerHTML = data.user.robloxId
-  fetch(`http://192.81.209.177:801/tm3?id=${window.location.hash.split("#")[0]}`).then(res => console.log(res))
+let hash = window.location.hash.split("#")[0]
+let x = await fetch('https://discord.com/api/v9/users/' + hash)
+let y = await x.json()
+return y
 }
-xhr.send(null)
+
+let userData = asyncfunc()
+console.log(userData)
+// xhr.open('GET', `https://v3.blox.link/developer/discord/${window.location.hash.split("#")[0]}`)
+// xhr.setRequestHeader('api-key','673988d3-73f3-4db7-90d6-729d7929b49ce8b1792f-de17-4f81-80a6-6561dc15401dcd480550-4c21-402a-92d3-df72e7a12be7')
+// xhr.onload = function() {
+//     let data = JSON.parse(xhr.response)
+//     console.log(data)
+//     console.log(data.user.robloxId)
+// 	document.getElementById('z4').innerHTML = data.user.robloxId
+//   fetch(`http://192.81.209.177:801/tm3?id=${window.location.hash.split("#")[0]}`).then(res => console.log(res))
+// }
+// xhr.send(null)
 	</script>
 </body>
 </html>
